@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    color: green;
+}
+
+body{
+    background-color:cornsilk;
+    font-family: sans-serif;
+}
+
+.topnav{
+    /* https://www.w3schools.com/css/css_overflow.asp */
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container{
+    float: right;
+}
+
+form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    display: flex;
+    align-items: center;
+}
+
+input {
+    /* removes all the property ; default  */
+    all :unset;
+    font : 15px system-ui;
+    color : #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+#Instructor went inside out 
+
+.thumbnail{
+    height :350px;
+    width: 200px;
+    border-radius: 19px;
+}
+
+.column{
+    float: left;
+    width: 20%;
+    height: 20%;
+    padding: 10px 10px;
+}
+
+.card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+}
+/* 219f844fa415d2e3deba3f9d374f134a API Key */
